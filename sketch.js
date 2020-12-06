@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  background("green");
+  background("white");
   Engine.update(engine);
   strokeWeight(4);
   keyPressed();
