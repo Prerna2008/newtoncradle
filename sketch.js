@@ -21,12 +21,12 @@ function setup() {
   world = engine.world;
   
 
-  platform = new Ground(100,200, 200, 50);
+  platform = new Ground(400,200, 200, 50);
   bob1 = new Bob(300,500,25); 
-	bob2 = new Bob(350,500,25);
-	bob3 = new Bob(400,500,25);
-	bob4 = new Bob(450,500,25); 
-  bob5 = new Bob(500,500,25); 
+	bob2 = new Bob(350,500,50);
+	bob3 = new Bob(400,500,50);
+	bob4 = new Bob(450,500,50); 
+  bob5 = new Bob(500,500,50); 
  
  
 }
