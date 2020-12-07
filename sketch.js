@@ -28,11 +28,6 @@ function setup() {
   bob4 = new Bob(450,500,50); 
   bob5 = new Bob(500,500,50);
 	
-  rope1=new rope(bob1.body,platform.body,-bobDiameter*2,0);
-  rope2=new rope(bob1.body,platform.body,-bobDiameter*2,0);
-  rope3=new rope(bob1.body,platform.body,-bobDiameter*2,0);
-  rope4=new rope(bob1.body,platform.body,-bobDiameter*2,0);
-  rope5=new rope(bob1.body,platform.body,-bobDiameter*2,0);
 }
 
 function draw() {
