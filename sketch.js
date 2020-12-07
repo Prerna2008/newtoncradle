@@ -23,10 +23,16 @@ function setup() {
 
   platform = new Ground(400,200, 300, 50);
   bob1 = new Bob(300,500,50); 
-	bob2 = new Bob(350,500,50);
-	bob3 = new Bob(400,500,50);
-	bob4 = new Bob(450,500,50); 
-  bob5 = new Bob(500,500,50); 
+  bob2 = new Bob(350,500,50);
+  bob3 = new Bob(400,500,50);
+  bob4 = new Bob(450,500,50); 
+  bob5 = new Bob(500,500,50);
+	
+  rope1=new rope(bob1.body,platform.body,-bobDiameter*2,0);
+  rope2=new rope(bob1.body,platform.body,-bobDiameter*2,0);
+  rope3=new rope(bob1.body,platform.body,-bobDiameter*2,0);
+  rope4=new rope(bob1.body,platform.body,-bobDiameter*2,0);
+  rope5=new rope(bob1.body,platform.body,-bobDiameter*2,0);
 }
 
 function draw() {
